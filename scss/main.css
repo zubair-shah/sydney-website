@@ -342,6 +342,75 @@ header .row .navigation nav ul li .btn-primary {
   margin: 12px 0px 3px 0px;
 }
 
+.parent .main main #testimonial .container .sec-padding {
+  padding: 120px 0px;
+}
+
+.parent .main main #testimonial .container .sec-padding .heading h6 {
+  color: #393689;
+  font-family: "Raleway", Sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 0.8em;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card {
+  margin: 0px 0px 0px 15px;
+  padding: 30px 70px 30px 70px;
+  border-radius: 40px;
+  -webkit-box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .logo {
+  text-align: center;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .logo span {
+  color: #7575da;
+  border-color: #7575da;
+  font-size: 35px;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .para p {
+  line-height: 30px;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .client-logo span img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .client-logo span h6 {
+  color: #393689;
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-card .client-logo span p {
+  font-size: 14px;
+}
+
+.parent .main main footer {
+  background-color: #F6F8FD;
+}
+
+.parent .main main footer .container .sec-padding {
+  padding: 80px 0px;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .company-content ul {
+  list-style: none;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .product-content ul {
+  list-style: none;
+}
+
 #solution .container {
   width: 70%;
   margin: 0 auto;

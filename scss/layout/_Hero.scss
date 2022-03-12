@@ -247,61 +247,144 @@
         }
       }
 
-     #free-trial{
-       background-image: url('https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.8.png');
-       background-color:#fff7f1;
+      #free-trial {
+        background-image: url("https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.8.png");
+        background-color: #fff7f1;
 
-       .container{
-        width: 60%;
-        margin: 0 auto;
-        .sec-padding{
-          padding: 80px 0px;
-           
-          .heading{
-            h2 {
-              font-size: 50px;
-              text-transform: capitalize;
-              color: #3b368c;
-              font-weight: 700;
-              margin-bottom: 1.5rem;
-            }
-            p{
-              margin: 35px 0px;
-            }
-          }
-       
-          .trial-card {
-            width: 90%;
-           margin: 0 auto;
-          }
-          .apple-card{
-            background-color: #7575da;
-            padding: 8px 30px;
-            border-radius: 14px;
-            .content{
-              color: #fafafa;
-              p{
-                margin: 12px 0px 3px 0px;
+        .container {
+          width: 60%;
+          margin: 0 auto;
+          .sec-padding {
+            padding: 80px 0px;
+
+            .heading {
+              h2 {
+                font-size: 50px;
+                text-transform: capitalize;
+                color: #3b368c;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+              }
+              p {
+                margin: 35px 0px;
               }
             }
-          }
-          .google-play-card{
-            background-color: #ffffff;
-            padding: 8px 30px;
-            border-radius: 14px;
 
-            .content{
-              color: #3b368c;
-              p{
-                margin: 12px 0px 3px 0px;
+            .trial-card {
+              width: 90%;
+              margin: 0 auto;
+            }
+            .apple-card {
+              background-color: #7575da;
+              padding: 8px 30px;
+              border-radius: 14px;
+              .content {
+                color: #fafafa;
+                p {
+                  margin: 12px 0px 3px 0px;
+                }
+              }
+            }
+            .google-play-card {
+              background-color: #ffffff;
+              padding: 8px 30px;
+              border-radius: 14px;
+
+              .content {
+                color: #3b368c;
+                p {
+                  margin: 12px 0px 3px 0px;
+                }
               }
             }
           }
         }
-       }
+      }
 
-     }
+      #testimonial {
+        .container {
+          .sec-padding {
+            padding: 120px 0px;
 
+            .heading {
+              h6 {
+                color: #393689;
+                font-family: "Raleway", Sans-serif;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 0.8em;
+              }
+            }
+
+            .testimonial-card {
+              margin: 0px 0px 0px 15px;
+              padding: 30px 70px 30px 70px;
+              border-radius: 40px;
+              box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
+
+              .logo {
+                text-align: center;
+                span {
+                  color: #7575da;
+                  border-color: #7575da;
+                  font-size: 35px;
+                }
+              }
+
+              .para {
+                p {
+                  line-height: 30px;
+                }
+              }
+
+              .client-logo {
+                span {
+                  img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    margin-bottom: 25px;
+                  }
+                  h6 {
+                    color: #393689;
+                    font-family: "Raleway", Sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin: 0;
+                  }
+                  p {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      footer{
+        background-color: #F6F8FD;
+
+        .container{
+          .sec-padding{
+            padding: 80px 0px;
+
+            .footer-main{
+              
+              .company-content{
+                ul{
+                  list-style: none;
+                }
+              }
+              .product-content{
+                ul{
+                  list-style: none;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
