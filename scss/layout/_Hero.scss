@@ -1,0 +1,307 @@
+.parent {
+  .main {
+    background-color: #d2e9ff;
+    height: 700px;
+    // border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    main {
+      #banner {
+        .container {
+          .banner {
+            height: 880px;
+            text-align: center;
+            position: relative;
+            /* padding: 65px; */
+            margin: 0px 65px;
+            /* display: -webkit-box; */
+            display: -ms-flexbox;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            /* display: flex; */
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            .heading {
+              margin-top: 60px;
+              h1 {
+                font-size: 60px;
+                text-transform: capitalize;
+                color: #3b368c;
+              }
+            }
+
+            .para {
+              margin: 20px 60px;
+              line-height: 30px;
+              p {
+                font-size: 16px;
+                margin: 30px 0px;
+              }
+            }
+            .banner-btn {
+              margin: 30px 18px;
+
+              .btn-primary {
+                background-color: #7575da;
+                border: none;
+                padding: 13px 30px;
+                border-radius: 10px 10px 10px 10px;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+              .btn-success {
+                background-color: #fbfcfd;
+                border: none;
+                color: #3c4044;
+                padding: 13px 30px;
+                border-radius: 10px 10px 10px 10px;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+            }
+            .image {
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+              top: 300px;
+              text-align: center;
+              img {
+                width: 760px;
+              }
+            }
+          }
+        }
+      }
+
+      #rule {
+        .container {
+          width: 70%;
+          margin: 0 auto;
+          .sec-padding {
+            padding: 80px 0px;
+            .rule-heading {
+              h2 {
+                font-size: 56px;
+                text-transform: capitalize;
+                color: #3b368c;
+                margin-bottom: 1.5rem;
+              }
+              ul {
+                list-style: none;
+                padding: 10px 0px;
+
+                li {
+                  padding: 8px 0px;
+                  span {
+                    color: #7575da;
+                    font-size: 16px;
+                    margin-right: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #work-faster {
+        background-image: url("https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.6.png");
+        background-color: #f6f8fd;
+        background-size: cover;
+        .container {
+          width: 60%;
+          margin: 0 auto;
+
+          .sec-padding {
+            padding: 115px 0px;
+            .work-faster-content {
+              h2 {
+                font-size: 36px;
+                text-transform: capitalize;
+                color: #3b368c;
+                margin-bottom: 1.5rem;
+              }
+              button {
+                background-color: #7575da;
+                border: none;
+                padding: 13px 30px;
+                border-radius: 10px 10px 10px 10px;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+            }
+
+            .work-card {
+              .card {
+                padding: 25px;
+                background-color: #ffffff;
+                border-style: solid;
+                border-width: 1px 1px 1px 1px;
+                border-color: #ebebeb;
+                border-radius: 20px 20px 20px 20px;
+              }
+              .content {
+                margin-left: 22px;
+                h4 {
+                  font-family: "Raleway", Sans-serif;
+                  font-size: 22px;
+                  font-weight: 700;
+                  color: #393689;
+                }
+              }
+              .work-card-coloum1 {
+                position: absolute;
+                top: -190px;
+                left: -90px;
+              }
+              .work-card-coloum2 {
+                margin: 30px 0px;
+              }
+              .work-card-coloum3 {
+                position: absolute;
+                top: 250px;
+                left: -90px;
+              }
+            }
+          }
+        }
+      }
+
+      #pricing {
+        .container {
+          width: 60%;
+          margin: 0 auto;
+          .sec-padding {
+            padding: 80px 0px;
+
+            .heading {
+              h2 {
+                color: #3b368c;
+                font-size: 40px;
+                margin-bottom: 35px;
+              }
+            }
+
+            .main-pricing-card {
+              .card {
+                text-align: center;
+                padding: 80px;
+
+                h3 {
+                  color: #393689;
+                  font-family: "Poppins", Sans-serif;
+                  font-size: 65px;
+                  font-weight: 600;
+                }
+                h6 {
+                  color: #7575da;
+                  font-family: "Raleway", Sans-serif;
+                  font-size: 22px;
+                  font-weight: 500;
+                }
+                span {
+                  padding: 25px 0px 0px 0px;
+                }
+                ul {
+                  padding-top: 25px;
+                  list-style: none;
+                  padding-left: 0rem !important;
+                  line-height: 35px;
+                }
+
+                button {
+                  font-family: "Raleway", Sans-serif;
+                  font-size: 16px;
+                  font-weight: 600;
+                  fill: #ffffff;
+                  color: #ffffff;
+                  background-color: #7575da;
+                  border-radius: 5px 5px 5px 5px;
+                  padding: 12px;
+                }
+              }
+              .card1 {
+                border-top-right-radius: 0px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 0px;
+              }
+              .card2 {
+                border-radius: 0px;
+                background-color: #fff7f1;
+              }
+              .card3 {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+
+     #free-trial{
+       background-image: url('https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.8.png');
+       background-color:#fff7f1;
+
+       .container{
+        width: 60%;
+        margin: 0 auto;
+        .sec-padding{
+          padding: 80px 0px;
+           
+          .heading{
+            h2 {
+              font-size: 50px;
+              text-transform: capitalize;
+              color: #3b368c;
+              font-weight: 700;
+              margin-bottom: 1.5rem;
+            }
+            p{
+              margin: 35px 0px;
+            }
+          }
+       
+          .trial-card {
+            width: 90%;
+           margin: 0 auto;
+          }
+          .apple-card{
+            background-color: #7575da;
+            padding: 8px 30px;
+            border-radius: 14px;
+            .content{
+              color: #fafafa;
+              p{
+                margin: 12px 0px 3px 0px;
+              }
+            }
+          }
+          .google-play-card{
+            background-color: #ffffff;
+            padding: 8px 30px;
+            border-radius: 14px;
+
+            .content{
+              color: #3b368c;
+              p{
+                margin: 12px 0px 3px 0px;
+              }
+            }
+          }
+        }
+       }
+
+     }
+
+    }
+  }
+}

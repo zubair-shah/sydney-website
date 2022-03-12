@@ -1,0 +1,374 @@
+header .main-header {
+  padding-top: 40px;
+}
+
+header .row .navigation nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .row .navigation nav ul li {
+  margin: 0px 20px;
+}
+
+header .row .navigation nav ul li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+header .row .navigation nav ul li .btn-primary {
+  color: #212529;
+  background-color: #fbfcfd;
+  border-color: #fbfcfd;
+  margin-top: -7px;
+  font-size: 14px;
+  padding: 4px 6.75px;
+}
+
+.parent .main {
+  background-color: #d2e9ff;
+  height: 700px;
+}
+
+.parent .main main #banner .container .banner {
+  height: 880px;
+  text-align: center;
+  position: relative;
+  /* padding: 65px; */
+  margin: 0px 65px;
+  /* display: -webkit-box; */
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* display: flex; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.parent .main main #banner .container .banner .heading {
+  margin-top: 60px;
+}
+
+.parent .main main #banner .container .banner .heading h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  color: #3b368c;
+}
+
+.parent .main main #banner .container .banner .para {
+  margin: 20px 60px;
+  line-height: 30px;
+}
+
+.parent .main main #banner .container .banner .para p {
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+.parent .main main #banner .container .banner .banner-btn {
+  margin: 30px 18px;
+}
+
+.parent .main main #banner .container .banner .banner-btn .btn-primary {
+  background-color: #7575da;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.parent .main main #banner .container .banner .banner-btn .btn-success {
+  background-color: #fbfcfd;
+  border: none;
+  color: #3c4044;
+  padding: 13px 30px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.parent .main main #banner .container .banner .image {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 300px;
+  text-align: center;
+}
+
+.parent .main main #banner .container .banner .image img {
+  width: 760px;
+}
+
+.parent .main main #rule .container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.parent .main main #rule .container .sec-padding {
+  padding: 80px 0px;
+}
+
+.parent .main main #rule .container .sec-padding .rule-heading h2 {
+  font-size: 56px;
+  text-transform: capitalize;
+  color: #3b368c;
+  margin-bottom: 1.5rem;
+}
+
+.parent .main main #rule .container .sec-padding .rule-heading ul {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+.parent .main main #rule .container .sec-padding .rule-heading ul li {
+  padding: 8px 0px;
+}
+
+.parent .main main #rule .container .sec-padding .rule-heading ul li span {
+  color: #7575da;
+  font-size: 16px;
+  margin-right: 14px;
+}
+
+.parent .main main #work-faster {
+  background-image: url("https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.6.png");
+  background-color: #f6f8fd;
+  background-size: cover;
+}
+
+.parent .main main #work-faster .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.parent .main main #work-faster .container .sec-padding {
+  padding: 115px 0px;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-faster-content h2 {
+  font-size: 36px;
+  text-transform: capitalize;
+  color: #3b368c;
+  margin-bottom: 1.5rem;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-faster-content button {
+  background-color: #7575da;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .card {
+  padding: 25px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ebebeb;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .content {
+  margin-left: 22px;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .content h4 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #393689;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .work-card-coloum1 {
+  position: absolute;
+  top: -190px;
+  left: -90px;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .work-card-coloum2 {
+  margin: 30px 0px;
+}
+
+.parent .main main #work-faster .container .sec-padding .work-card .work-card-coloum3 {
+  position: absolute;
+  top: 250px;
+  left: -90px;
+}
+
+.parent .main main #pricing .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.parent .main main #pricing .container .sec-padding {
+  padding: 80px 0px;
+}
+
+.parent .main main #pricing .container .sec-padding .heading h2 {
+  color: #3b368c;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card {
+  text-align: center;
+  padding: 80px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card h3 {
+  color: #393689;
+  font-family: "Poppins", Sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card h6 {
+  color: #7575da;
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card span {
+  padding: 25px 0px 0px 0px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card ul {
+  padding-top: 25px;
+  list-style: none;
+  padding-left: 0rem !important;
+  line-height: 35px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card button {
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #7575da;
+  border-radius: 5px 5px 5px 5px;
+  padding: 12px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card1 {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card2 {
+  border-radius: 0px;
+  background-color: #fff7f1;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card3 {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+}
+
+.parent .main main #free-trial {
+  background-image: url("https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.8.png");
+  background-color: #fff7f1;
+}
+
+.parent .main main #free-trial .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.parent .main main #free-trial .container .sec-padding {
+  padding: 80px 0px;
+}
+
+.parent .main main #free-trial .container .sec-padding .heading h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #3b368c;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.parent .main main #free-trial .container .sec-padding .heading p {
+  margin: 35px 0px;
+}
+
+.parent .main main #free-trial .container .sec-padding .trial-card {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.parent .main main #free-trial .container .sec-padding .apple-card {
+  background-color: #7575da;
+  padding: 8px 30px;
+  border-radius: 14px;
+}
+
+.parent .main main #free-trial .container .sec-padding .apple-card .content {
+  color: #fafafa;
+}
+
+.parent .main main #free-trial .container .sec-padding .apple-card .content p {
+  margin: 12px 0px 3px 0px;
+}
+
+.parent .main main #free-trial .container .sec-padding .google-play-card {
+  background-color: #ffffff;
+  padding: 8px 30px;
+  border-radius: 14px;
+}
+
+.parent .main main #free-trial .container .sec-padding .google-play-card .content {
+  color: #3b368c;
+}
+
+.parent .main main #free-trial .container .sec-padding .google-play-card .content p {
+  margin: 12px 0px 3px 0px;
+}
+
+#solution .container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#solution .container .sec-padding {
+  padding: 90px 0px;
+}
+
+#solution .heading h2 {
+  color: #3b368c;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+#solution .heading p {
+  color: #41464b;
+}
+
+#solution .main-solution {
+  margin-top: 65px;
+}
+
+#solution .main-solution .icon-content h4 {
+  text-transform: capitalize;
+  color: #3b368c;
+  font-size: 28px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */

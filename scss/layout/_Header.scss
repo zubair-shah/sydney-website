@@ -1,0 +1,36 @@
+
+header {
+ .main-header{
+    padding-top: 40px;
+ }
+   .row{
+    .navigation {
+         nav{
+            ul {
+                list-style: none;
+                display: flex;
+
+                li{
+                    margin: 0px 20px;
+                    a{
+                        text-decoration: none;
+                        color: #212529;
+                    }
+                    .btn-primary{
+                        color: #212529;
+                        background-color: #fbfcfd;
+                        border-color: #fbfcfd;
+                        margin-top: -7px;
+                        font-size: 14px;
+                        padding: 4px 6.75px;
+                    }
+                }
+               
+              }
+
+         }
+      }
+   }
+
+
+}

@@ -1,0 +1,33 @@
+#solution {
+  .container{
+    width: 70%;
+    margin: 0 auto;
+    .sec-padding{
+        padding: 90px 0px;
+    }
+}
+  .heading {
+    h2 {
+      color: #3b368c;
+      font-size: 40px;
+      margin-bottom: 35px;
+    }
+    p {
+      color: #41464b;
+    }
+    
+  }
+  .main-solution {
+    margin-top: 65px;
+
+    .icon-content {
+        h4{
+            text-transform: capitalize;
+            color: #3b368c;
+            font-size: 28px;
+            font-weight: 500;
+        }
+    
+    }
+  }
+}
