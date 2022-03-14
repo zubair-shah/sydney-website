@@ -396,19 +396,95 @@ header .row .navigation nav ul li .btn-primary {
 }
 
 .parent .main main footer {
-  background-color: #F6F8FD;
+  background-color: #f6f8fd;
 }
 
 .parent .main main footer .container .sec-padding {
   padding: 80px 0px;
 }
 
+.parent .main main footer .container .sec-padding .footer-main .footer-logo {
+  padding-bottom: 22px;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .content {
+  font-size: 18px;
+  line-height: 36px;
+  padding-bottom: 16px;
+}
+
+.parent .main main footer .container .sec-padding .footer-main h2 {
+  color: #393689;
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #393689;
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .icon span {
+  background-color: #f6f8fd;
+  --icon-padding: 0.7em;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(42, 38, 56, 0.21);
+  padding: 11px;
+  border-radius: 50%;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .icon span i {
+  color: #2a2638;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .icon span.facebook {
+  padding: 11px 16px;
+}
+
 .parent .main main footer .container .sec-padding .footer-main .company-content ul {
   list-style: none;
+  padding: inherit;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .company-content ul li {
+  padding-bottom: 10px;
+  color: 2a2638;
+  font-size: 14px;
+  font-family: "Raleway", Sans-serif;
 }
 
 .parent .main main footer .container .sec-padding .footer-main .product-content ul {
   list-style: none;
+  padding: inherit;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .product-content ul li {
+  padding-bottom: 10px;
+  color: 2a2638;
+  font-size: 14px;
+  font-family: "Raleway", Sans-serif;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .contact-content .content-span {
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.parent .main main footer .lower-footer {
+  padding: 24px;
+  background-color: #111115;
+}
+
+.parent .main main footer .lower-footer .footer-para {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.parent .main main footer .lower-footer .footer-para a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #solution .container {
