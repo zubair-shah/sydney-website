@@ -4,4 +4,8 @@
 @import "./base/colors", "./base/default", "./base/fonts";
 // Import Layout
 @import "./layout/Header", "./layout/Hero" , "./layout/Solution";
+$breakpoint-iphone: 440px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-big: 991px;
+$breakpoint-laptop: 1200px;
 

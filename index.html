@@ -22,7 +22,7 @@
     />
     <link rel="icon" type="image/png" sizes="16x16" href="#" />
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="scss/main.css" type="text/css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -30,29 +30,56 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css"
+      integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body style="font-family: 'Open Sans', sans-serif;">
+  <body style="font-family: 'Open Sans', sans-serif">
     <div class="parent">
       <div class="main">
-        <header>
+        <!-- =======================header========================= -->
+        <header class="pt-lg-5">
           <div class="container">
-          <div class="main-header">
             <div class="row">
-              <div class="col-md-4">
-                <div class="logo">
+              <div class="col-md-3 col-lg-2 col-xl-3">
+                <div
+                  class="logo text-center"
+                  style="margin-left: 14px; padding-top: 14px"
+                >
                   <img src="assets/images/logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-md-8 navigation">
-                <nav>
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+              <div
+                class="col-md-9 col-lg-10 col-xl-9 navigation navbar navbar-expand-lg navbar-light"
+              >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <ul class="navbar-nav">
+                    <li>
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+
+                    <li><a class="nav-link" href="#">About</a></li>
+                    <li><a class="nav-link" href="#">Features</a></li>
+                    <li><a class="nav-link" href="#">Pricing</a></li>
+                    <li><a class="nav-link" href="#">Blog</a></li>
+                    <li><a class="nav-link" href="#">Contact</a></li>
                     <li>
                       <button class="btn btn-primary">Start Free Trial</button>
                     </li>
@@ -60,7 +87,6 @@
                 </nav>
               </div>
             </div>
-          </div>
           </div>
         </header>
 
@@ -104,113 +130,171 @@
                     Illo, veniam.
                   </p>
                 </div>
-               <div class="main-solution">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon">
-                          <img src="assets/images/professional-tool-icon.png" alt="">
+                <div class="main-solution">
+                  <div class="row">
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img
+                              src="assets/images/professional-tool-icon.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>professional tools</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>professional tools</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
+                    </div>
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img
+                              src="assets/images/fully-customizable-icon.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>Fully Customizable</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img src="assets/images/cloud-icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>save to the cloud</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon"> <img src="assets/images/fully-customizable-icon.png" alt=""></div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>Fully Customizable</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
+                  <div class="row solution-row-margin">
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img
+                              src="assets/images/app-integeration-icon.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>App integration</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon"> <img src="assets/images/cloud-icon.png" alt=""></div>
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img
+                              src="assets/images/easy-to-use-icon.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>Easy to use</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>save to the cloud</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
+                    </div>
+                    <div
+                      class="col-xsm-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 mb-4"
+                    >
+                      <div class="row">
+                        <div
+                          class="icon-col col-xsm-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"
+                        >
+                          <div class="icon">
+                            <img
+                              src="assets/images/marketing-icon.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="icon-col-content col-xsm-12 col-sm-12 col-md-10 col-lg-9 col-xl-9"
+                        >
+                          <div class="icon-content">
+                            <h4>Marketing</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row mt-lg-5">
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon"> <img src="assets/images/app-integeration-icon.png" alt=""></div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>App integration</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon">
-                          <img src="assets/images/easy-to-use-icon.png" alt="">
-                        </div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>Easy to use</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="icon"> <img src="assets/images/marketing-icon.png" alt=""></div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="icon-content">
-                          <h4>Marketing</h4>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-               </div>
-               
               </div>
             </div>
           </section>
@@ -219,36 +303,43 @@
             <div class="container">
               <div class="sec-padding">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div
+                    class="col-xsm-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+                  >
                     <div class="img">
-                      <img src="assets/images/rule.png" alt="">
+                      <img src="assets/images/rule.png" alt="" />
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div
+                    class="col-xsm-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+                  >
                     <div class="rule-heading">
-                      <h2>
-                        Simple, Intuitive And Easy To Use
-                      </h2>
+                      <h2>Simple, Intuitive And Easy To Use</h2>
                       <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi sequi fugiat. Provident magni deserunt.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio modi sequi fugiat. Provident magni deserunt.
                       </p>
                       <ul>
                         <li>
-                          <span><i class="fas fa-check"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span><i class="fas fa-check"></i></span> Lorem ipsum
+                          dolor sit amet consectetur adipisicing elit.
                         </li>
                         <li>
-                          <span><i class="fas fa-check"></i></span>  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span><i class="fas fa-check"></i></span> Lorem ipsum
+                          dolor sit amet consectetur adipisicing elit.
                         </li>
                         <li>
-                          <span><i class="fas fa-check"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span><i class="fas fa-check"></i></span> Lorem ipsum
+                          dolor sit amet consectetur adipisicing elit.
                         </li>
                         <li>
-                          <span><i class="fas fa-check"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span><i class="fas fa-check"></i></span> Lorem ipsum
+                          dolor sit amet consectetur adipisicing elit.
                         </li>
                         <li>
-                          <span><i class="fas fa-check"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          <span><i class="fas fa-check"></i></span> Lorem ipsum
+                          dolor sit amet consectetur adipisicing elit.
                         </li>
-
                       </ul>
                     </div>
                   </div>
@@ -256,7 +347,7 @@
               </div>
             </div>
           </section>
-           <!-- =====================work-faster================ -->
+          <!-- =====================work-faster================ -->
           <section id="work-faster">
             <div class="container">
               <div class="sec-padding">
@@ -266,281 +357,370 @@
                       <h2>work faster with powerful tools</h2>
 
                       <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed in ut tenetur officiis, dolore suscipit! 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed in ut tenetur officiis, dolore suscipit!
                       </p>
-                      <button class="btn btn-primary">
-                        Start Free Trial
-                      </button>
+                      <button class="btn btn-primary">Start Free Trial</button>
                     </div>
-
                   </div>
                   <div class="col-md-6">
-                   <div class="row work-card flex-column justify-content-around position-relative"   >
-                     <div class="work-card-coloum1 col-md-12 ">
-                       <div class="card">
-                         <div class="row">
-                           <div class="col-md-3">
-                             <img src="assets/images/analyze-your-data.png" alt="">
-                           </div>
-                           <div class="col-md-9">
-                             <div class="content">
-                               <h4>Analyze Your data</h4>
-                               <p>
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                               </p>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                     <div class="col-md-12 work-card-coloum2">
-                      <div class="card">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <img src="assets/images/embede-analytics.png" alt="">
-                          </div>
-                          <div class="col-md-9">
-                            <div class="content">
-                              <h4>Analyze Your data</h4>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </p>
+                    <div
+                      class="row work-card flex-column justify-content-around position-relative"
+                    >
+                      <div class="work-card-coloum1 col-md-12">
+                        <div class="card">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="assets/images/analyze-your-data.png"
+                                alt=""
+                              />
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class=" work-card-coloum3 col-md-12">
-                      <div class="card">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <img src="assets/images/easy-and-intuitive.png" alt="">
-                          </div>
-                          <div class="col-md-9">
-                            <div class="content">
-                              <h4>Analyze Your data</h4>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   </div>
-                      
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-           <!-- =====================pricing-card================ -->
-           <section id="pricing">
-             <div class="container">
-               <div class="sec-padding">
-               <div class="pricing-main">
-                <div class="heading text-center text-capitalize">
-                  <h2>get in reasonale pricing plan</h2>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                </div>
-               <div class="main-pricing-card">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="card  card1">
-                      <h6>Personel</h6>
-                      <h3>$34</h3>
-                      <span>per month</span>
-                      <span>_</span>
-                      <ul>
-                        <li>5gb Storage</li>
-                        <li>500 users</li>
-                        <li>15 Domain</li>
-                        <li>1 year Support</li>
-                       
-                      </ul>
- 
-                      <button class="btn btn-secondary">Get Started</button>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                   <div class="card card2"  >
-                     <h6>Personel</h6>
-                     <h3>$34</h3>
-                     <span>per month</span>
-                     <span>_</span>
-                     <ul>
-                       <li>5gb Storage</li>
-                       <li>500 users</li>
-                       <li>15 Domain</li>
-                       <li>1 year Support</li>
-                      
-                     </ul>
- 
-                     <button class="btn btn-secondary">Get Started</button>
-                   </div>
-                 </div>
-                 <div class="col-md-4">
-                   <div class="card card3">
-                     <h6>Personel</h6>
-                     <h3>$34</h3>
-                     <span>per month</span>
-                     <span>_</span>
-                     <ul>
-                       <li>5gb Storage</li>
-                       <li>500 users</li>
-                       <li>15 Domain</li>
-                       <li>1 year Support</li>
-                      
-                     </ul>
- 
-                     <button class="btn btn-secondary">Get Started</button>
-                   </div>
-                 </div>
-                </div>
-               </div>
-
-               </div>
-                 
-               </div>
-             </div>
-           </section>
- <!-- =====================free-trial================ -->
-           <section id="free-trial">
-             <div class="container">
-               <div class="sec-padding">
-                 <div class="free-trial-main">
-                      <div class="heading text-center text-capitalize">
-                        <h2>Start your 7 days free trial!</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.</p>
-                      </div>
-                     
-                      <div class="row trial-card justify-content-lg-evenly">
-                        <div class="col-md-4">
-                            <div class="row ">
-                              <div class="apple-card">
-                           <div class="row">
-                            <div class="col-md-4">
-                              <img src="assets/images/apple-logo.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                             <div class="content">
-                              <p>Download on the</p>
-                              <h5>App Store</h5>
-                             </div>
-                            </div>
-                           </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                         
-                            <div class="row  ">
-                              <div class="google-play-card">
-                              <div class="row">
-                                <div class="col-md-4">
-                                
-                                  <img src="assets/images/play-store-logo.png" alt="">
-                                </div>
-                                <div class="col-md-8">
-                                 <div class="content">
-                                  <p>Download on the</p>
-                                  <h5>Play Store</h5>
-                                 </div>
-                                </div>
+                            <div class="col-md-9">
+                              <div class="content">
+                                <h4>Analyze Your data</h4>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit.
+                                </p>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                 </div>
-               </div>
-             </div>
-           </section>
-
-            <!-- =====================testimonial================ -->
-            <section id="testimonial">
-              <div class="container">
-                <div class="sec-padding">
-                  <div class="heading text-capitalize text-center">
-                    <h6>More than 2,2 millionpeople across 55,000 companies choose sydney</h6>
-                  </div>
-                  <div class="testimonial-slider">
-                    slider here
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="testimonial-card">
-                         <div class="logo">
-                        <span><i class="fas fa-quote-left"></i></span>
-                         </div>
-                         <div class="para text-center text-capitalize">
-                           <p>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consectetur officia laboriosam blanditiis eligendi odit doloribus perspiciatis reiciendis aperiam! Deleniti minima dolorem eum?
-                    
-                           </p>
-                         </div>
-                         <div class="client-logo text-center">
-                           <span>
-                            <img src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/team_3.jpg" alt="client logo">
-                           </span>
-                           <span class="d-inline-block">
-                             <h6>Amanda Lee</h6>
-                             <p>CEO & Founder Crix</p>
-                           </span>
-                         </div>
+                      <div class="col-md-12 work-card-coloum2">
+                        <div class="card">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="assets/images/embede-analytics.png"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="content">
+                                <h4>Analyze Your data</h4>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="testimonial-card">
-                         <div class="logo">
-                          <span><i class="fas fa-quote-left"></i></span>
-                         </div>
-                         <div class="para text-center text-capitalize">
-                           <p>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consectetur officia laboriosam blanditiis eligendi odit doloribus perspiciatis reiciendis aperiam! Deleniti minima dolorem eum?
-                    
-                           </p>
-                         </div>
-                         <div class="client-logo text-center">
-                           <span>
-                            <img src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/textimonial_1.png" alt="client logo">
-                   
-                           </span>
-                           <span class="d-inline-block">
-                             <h6>Amanda Lee</h6>
-                             <p>CEO & Founder Crix</p>
-                           </span>
-                         </div>
+                      <div class="work-card-coloum3 col-md-12">
+                        <div class="card">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="assets/images/easy-and-intuitive.png"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="content">
+                                <h4>Analyze Your data</h4>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
-<!-- =====================footer================ -->
-            <footer>
-              <div class="container">
-                <div class="sec-padding">
-                  <div class="footer-main">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="content">
+            </div>
+          </section>
+          <!-- =====================pricing-card================ -->
+          <section id="pricing">
+            <div class="container">
+              <div class="sec-padding">
+                <div class="pricing-main">
+                  <div class="heading text-center text-capitalize">
+                    <h2>get in reasonale pricing plan</h2>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="main-pricing-card">
+                    <div class="row g-0">
+                      <div class="col-sm-12 col-md-4 mt-5">
+                        <div class="card card1">
+                          <h6>Personel</h6>
+                          <h3>$34</h3>
+                          <span>per month</span>
+                          <span>_</span>
+                          <ul>
+                            <li>5gb Storage</li>
+                            <li>500 users</li>
+                            <li>15 Domain</li>
+                            <li>1 year Support</li>
+                          </ul>
 
+                          <button class="btn btn-secondary">Get Started</button>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4 mt-5">
+                       
+                        <div class="card card2">
+                          <span
+                          class="elementor-button-icon "
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            id="Layer_1"
+                            x="0px"
+                            y="0px"
+                            viewBox="0 0 511.998 511.998"
+                            style="enable-background: new 0 0 511.998 511.998"
+                            xml:space="preserve"
+                          >
+                            <g>
+                              <g>
+                                <polygon
+                                  points="336.038,162.408 285.68,147.563 255.999,104.257 226.318,147.563 175.96,162.408 207.976,204.018 206.531,256.5     256,238.909 305.469,256.5 304.022,204.018   "
+                                ></polygon>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <polygon
+                                  points="160.08,162.407 109.721,147.562 80.041,104.255 50.36,147.561 0,162.407 32.017,204.018 30.572,256.5     80.041,238.909 129.507,256.5 128.064,204.017   "
+                                ></polygon>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <polygon
+                                  points="511.998,162.408 461.638,147.563 431.957,104.256 402.277,147.563 351.918,162.408 383.934,204.018     382.492,256.5 431.958,238.909 481.427,256.5 479.98,204.018   "
+                                ></polygon>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <polygon
+                                  points="424.016,313.652 373.658,298.807 343.978,255.499 314.298,298.807 263.939,313.652 295.954,355.262     294.51,407.743 343.979,390.153 393.447,407.743 392.001,355.262   "
+                                ></polygon>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <polygon
+                                  points="248.059,313.651 197.7,298.806 168.02,255.498 138.34,298.806 87.982,313.651 119.996,355.262 118.552,407.743     168.02,390.153 217.489,407.743 216.044,355.261   "
+                                ></polygon>
+                              </g>
+                            </g>
+                          </svg>
+                        </span>
+                          <h6>Personel</h6>
+                          <h3>$34</h3>
+                          <span>per month</span>
+                          <span>_</span>
+                          <ul>
+                            <li>5gb Storage</li>
+                            <li>500 users</li>
+                            <li>15 Domain</li>
+                            <li>1 year Support</li>
+                          </ul>
 
-                          <div class="footer-logo">
-                            <img src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/LOGOF4-1.png" alt="">
-                          </div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dignissimos excepturi delenit.</p>
-                          <div class="icon">
-                            <span class="facebook"><i class="fab fa-facebook-f"></i></span>
-                            <span><i class="fab fa-twitter"></i></span>
-                            <span><i class="fab fa-youtube"></i></span>
-                            <span><i class="fab fa-instagram"></i></span>
+                          <button class="btn btn-secondary">Get Started</button>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4 mt-5">
+                        <div class="card card3">
+                          <h6>Personel</h6>
+                          <h3>$34</h3>
+                          <span>per month</span>
+                          <span>_</span>
+                          <ul>
+                            <li>5gb Storage</li>
+                            <li>500 users</li>
+                            <li>15 Domain</li>
+                            <li>1 year Support</li>
+                          </ul>
+
+                          <button class="btn btn-secondary">Get Started</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- =====================free-trial================ -->
+          <section id="free-trial">
+            <div class="container">
+              <div class="sec-padding">
+                <div class="free-trial-main">
+                  <div class="heading text-center text-capitalize">
+                    <h2>Start your 7 days free trial!</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis.
+                    </p>
+                  </div>
+
+                  <div class="row trial-card justify-content-lg-evenly">
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="apple-card">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img src="assets/images/apple-logo.png" alt="" />
+                            </div>
+                            <div class="col-md-8">
+                              <div class="content">
+                                <p>Download on the</p>
+                                <h5>App Store</h5>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-2">
-                       <div class="company-content">
+                    </div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="google-play-card">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img
+                                src="assets/images/play-store-logo.png"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-md-8">
+                              <div class="content">
+                                <p>Download on the</p>
+                                <h5>Play Store</h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- =====================testimonial================ -->
+          <section id="testimonial">
+            <div class="container">
+              <div class="sec-padding">
+                <div class="heading text-capitalize text-center">
+                  <h6>
+                    More than 2,2 millionpeople across 55,000 companies choose
+                    sydney
+                  </h6>
+                </div>
+                <div class="testimonial-slider">slider here</div>
+                <div class="row mt-5">
+                  <div class="col-md-6">
+                    <div class="testimonial-card">
+                      <div class="logo">
+                        <span><i class="fas fa-quote-left"></i></span>
+                      </div>
+                      <div class="para text-center text-capitalize">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Facilis consectetur officia laboriosam
+                          blanditiis eligendi odit doloribus perspiciatis
+                          reiciendis aperiam! Deleniti minima dolorem eum?
+                        </p>
+                      </div>
+                      <div class="client-logo text-center">
+                        <span>
+                          <img
+                            src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/team_3.jpg"
+                            alt="client logo"
+                          />
+                        </span>
+                        <span class="d-inline-block">
+                          <h6>Amanda Lee</h6>
+                          <p>CEO & Founder Crix</p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="testimonial-card">
+                      <div class="logo">
+                        <span><i class="fas fa-quote-left"></i></span>
+                      </div>
+                      <div class="para text-center text-capitalize">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Facilis consectetur officia laboriosam
+                          blanditiis eligendi odit doloribus perspiciatis
+                          reiciendis aperiam! Deleniti minima dolorem eum?
+                        </p>
+                      </div>
+                      <div class="client-logo text-center">
+                        <span>
+                          <img
+                            src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/textimonial_1.png"
+                            alt="client logo"
+                          />
+                        </span>
+                        <span class="d-inline-block">
+                          <h6>Amanda Lee</h6>
+                          <p>CEO & Founder Crix</p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- =====================footer================ -->
+          <footer>
+            <div class="container">
+              <div class="sec-padding">
+                <div class="footer-main">
+                  <div class="row footer-tex-center">
+                    <div
+                      class="footer-margin col-sm-12 col-md-12 col-lg-4 col-xl-4"
+                    >
+                      <div class="content">
+                        <div class="footer-logo">
+                          <img
+                            src="https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/LOGOF4-1.png"
+                            alt="some text"
+                          />
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Optio dignissimos excepturi delenit.
+                        </p>
+                        <div class="icon">
+                          <span class="facebook"
+                            ><a href="#"><i class="fab fa-facebook-f"></i></a
+                          ></span>
+                          <span
+                            ><a href="#"><i class="fab fa-twitter"></i></a
+                          ></span>
+                          <span
+                            ><a href="#"><i class="fab fa-youtube"></i></a
+                          ></span>
+                          <span
+                            ><a href="#"><i class="fab fa-instagram"></i></a
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="footer-margin col-sm-12 col-md-4 col-lg-2 col-xl-2"
+                    >
+                      <div class="company-content">
                         <h2>company</h2>
                         <ul>
                           <li>Comapny</li>
@@ -548,9 +728,11 @@
                           <li>Teams</li>
                           <li>Privacy Policy</li>
                         </ul>
-                       </div>
                       </div>
-                      <div class="col-md-2">
+                    </div>
+                    <div
+                      class="footer-margin col-sm-12 col-md-4 col-lg-2 col-xl-2"
+                    >
                       <div class="product-content">
                         <h2>Products</h2>
                         <ul>
@@ -560,38 +742,53 @@
                           <li>Documentation</li>
                         </ul>
                       </div>
-                     </div>
-                      <div class="col-md-4">
+                    </div>
+                    <div
+                      class="footer-margin col-sm-12 col-md-4 col-lg-4 col-xl-4"
+                    >
                       <div class="contact-content">
                         <h2>Contact Info</h2>
-                        <p> <span><i  class="fas fa-map-marker-alt"></i> </span>  <span class="content-span">7176 Blue Spring Lane Santa Monica, CA 90403</span></p>
-                        <p>  <span><i  class="fas fa-phone"></i></span> <span class="content-span">+0123 456 789</span></p>
-                        <p><span><i  class="fas fa-envelope"></i> </span>  <span class="content-span">sydney.support@hotmail.com</span></p>
-                      </div>
+                        <p>
+                          <span><i class="fas fa-map-marker-alt"></i> </span>
+                          <span class="content-span"
+                            >7176 Blue Spring Lane Santa Monica, CA 90403</span
+                          >
+                        </p>
+                        <p>
+                          <span><i class="fas fa-phone"></i></span>
+                          <span class="content-span">+0123 456 789</span>
+                        </p>
+                        <p>
+                          <span><i class="fas fa-envelope"></i> </span>
+                          <span class="content-span"
+                            >sydney.support@hotmail.com</span
+                          >
+                        </p>
                       </div>
                     </div>
                   </div>
-                 
                 </div>
               </div>
-              <div class="lower-footer ">
-               <div class="container">
-              <span class="footer-para">  © 2022 Sydney Pro SaaS. Proudly powered by <a href="#">Sydney Pro</a></span>
-               </div>
+            </div>
+            <div class="lower-footer">
+              <div class="container">
+                <span class="footer-para">
+                  © 2022 Sydney Pro SaaS. Proudly powered by
+                  <a href="#">Sydney Pro</a></span
+                >
               </div>
-             </footer>
+            </div>
+          </footer>
         </main>
       </div>
     </div>
-    
 
-  
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
     ></script>
-   
+
     <script src="js/main.js" defer></script>
     <script
       defer

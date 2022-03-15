@@ -1,11 +1,38 @@
+$small-phone: 300px;
+$medium-phone: 440px;
+$large-phone: 600px;
+$tablet: 768px;
+$large-tablet: 991px;
+$desktop: 1200px;
 .parent {
   .main {
+    .navbar-expand-lg {
+      .container {
+        display: block !important;
+        @media (min-width: 992px) and (max-width: 1200px) {
+          max-width: 975px;
+        }
+        .navbar-collapse {
+          @media (min-width: 992px) {
+            flex-flow: row-reverse;
+          }
+        }
+        .my-nav {
+          @media (min-width: 991px) {
+            display: none !important;
+          }
+        }
+      }
+    }
     background-color: #d2e9ff;
     height: 700px;
     // border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
     main {
       #banner {
         .container {
+          @media (max-width: $tablet) {
+            max-width: 625px;
+          }
           .banner {
             height: 880px;
             text-align: center;
@@ -22,21 +49,49 @@
             -webkit-box-direction: normal;
             -ms-flex-direction: column;
             flex-direction: column;
+            @media (max-width: $large-tablet) {
+              margin: 0px 0px;
+            }
+            @media (max-width: $tablet) {
+              margin: 0px 0px;
+            }
+
             .heading {
               margin-top: 60px;
+              @media (max-width: $large-phone) {
+                margin-top: 0;
+              }
+
               h1 {
                 font-size: 60px;
                 text-transform: capitalize;
                 color: #3b368c;
+                @media (max-width: $desktop) {
+                  font-size: 50px;
+                }
+                @media (max-width: $large-tablet) {
+                  font-size: 37px;
+                }
+                @media (max-width: $large-phone) {
+                  font-size: 28px;
+                }
               }
             }
 
             .para {
               margin: 20px 60px;
               line-height: 30px;
+              @media (max-width: $large-phone) {
+                margin: 20px 20px;
+              }
               p {
                 font-size: 16px;
                 margin: 30px 0px;
+
+                @media (max-width: $desktop) {
+                  font-size: 14px;
+                  margin: 22px 0px;
+                }
               }
             }
             .banner-btn {
@@ -50,6 +105,10 @@
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                @media (max-width: $large-tablet) {
+                  font-size: 14px;
+                  padding: 12px 23px;
+                }
               }
               .btn-success {
                 background-color: #fbfcfd;
@@ -60,6 +119,10 @@
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                @media (max-width: $large-tablet) {
+                  font-size: 14px;
+                  padding: 12px 23px;
+                }
               }
             }
             .image {
@@ -72,6 +135,19 @@
               text-align: center;
               img {
                 width: 760px;
+                @media (max-width: $desktop) {
+                  width: 680px;
+                }
+                @media (max-width: $large-tablet) {
+                  width: 680px;
+                }
+                @media (max-width: $tablet) {
+                  width: 580px;
+                }
+
+                @media (max-width: $large-phone) {
+                  width: 420px;
+                }
               }
             }
           }
@@ -80,16 +156,32 @@
 
       #rule {
         .container {
-          width: 70%;
+          @media (min-width: 1200px) and (max-width: 1400px) {
+            width: 90%;
+          }
+          @media (max-width: 1200px) {
+            width: 90%;
+          }
+          width: 80%;
           margin: 0 auto;
           .sec-padding {
             padding: 80px 0px;
+            @media (max-width: 768px) {
+              padding: 40px 0px;
+            }
             .rule-heading {
               h2 {
                 font-size: 56px;
                 text-transform: capitalize;
                 color: #3b368c;
                 margin-bottom: 1.5rem;
+                @media (min-width: 991px) and (max-width: 1200px) {
+                  font-size: 40px;
+                }
+                @media (max-width: 991px) {
+                  margin-top: 30px;
+                  font-size: 40px;
+                }
               }
               ul {
                 list-style: none;
@@ -103,6 +195,27 @@
                     margin-right: 14px;
                   }
                 }
+              }
+            }
+
+            .img {
+              img {
+                @media (min-width: 991px) and (max-width: 1200px) {
+                  width: 450px;
+                }
+
+                @media (max-width: 991px) {
+                  width: 100%;
+                }
+              }
+              @media (max-width: 991px) {
+                text-align: center;
+                width: 100%;
+              }
+            }
+            .rule-heading {
+              @media (max-width: 991px) {
+                text-align: center;
               }
             }
           }
@@ -175,7 +288,10 @@
 
       #pricing {
         .container {
-          width: 60%;
+          @media (max-width: 991px) {
+            max-width: 1170px;
+          }
+          width: 100%;
           margin: 0 auto;
           .sec-padding {
             padding: 80px 0px;
@@ -191,7 +307,10 @@
             .main-pricing-card {
               .card {
                 text-align: center;
-                padding: 80px;
+                padding: 80px 10px;
+                @media (max-width: 768px) {
+                  border-radius: 20px !important;
+                }
 
                 h3 {
                   color: #393689;
@@ -219,11 +338,14 @@
                   font-family: "Raleway", Sans-serif;
                   font-size: 16px;
                   font-weight: 600;
+                  text-align: center;
                   fill: #ffffff;
                   color: #ffffff;
                   background-color: #7575da;
                   border-radius: 5px 5px 5px 5px;
                   padding: 12px;
+                  width: 150px;
+                  margin: 0 auto;
                 }
               }
               .card1 {
@@ -231,16 +353,46 @@
                 border-top-left-radius: 10px;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 0px;
+                button {
+               
+                  fill: #393689;
+                  color: #393689;
+                  background-color: #f9f9fd;
+                  border: 2px solid #7575da;
+              
+                }
               }
               .card2 {
                 border-radius: 0px;
                 background-color: #fff7f1;
+                    position: relative;
+                .elementor-button-icon {
+                  width: 73px;
+                  background-color: #ff8a11;
+                  padding: 12px 21px;
+                  color: white;
+                  position: absolute;
+                  top: 0px;
+                  /* right: 44%; */
+                  left: 50%;
+                  -webkit-transform: translate(-50%, 0%);
+                  transform: translate(-50%, 0%);
+                  border-bottom-left-radius: 12px;
+                  border-bottom-right-radius: 12px;
+                }
               }
               .card3 {
                 border-top-right-radius: 10px;
                 border-top-left-radius: 0px;
                 border-bottom-left-radius: 0px;
                 border-bottom-right-radius: 10px;
+
+                button{
+                  fill: #393689;
+                  color: #393689;
+                  background-color: #f9f9fd;
+                  border: 2px solid #7575da;
+                }
               }
             }
           }
@@ -252,7 +404,14 @@
         background-color: #fff7f1;
 
         .container {
-          width: 60%;
+          @media (max-width: 1200px) {
+            width: 90%;
+          }
+          @media (max-width: 768px) {
+            width: 100%;
+            max-width: 700px;
+          }
+          width: 80%;
           margin: 0 auto;
           .sec-padding {
             padding: 80px 0px;
@@ -264,6 +423,9 @@
                 color: #3b368c;
                 font-weight: 700;
                 margin-bottom: 1.5rem;
+                @media (max-width: 768px) {
+                  font-size: 35px;
+                }
               }
               p {
                 margin: 35px 0px;
@@ -273,6 +435,10 @@
             .trial-card {
               width: 90%;
               margin: 0 auto;
+
+              @media (max-width: 991px) {
+                justify-content: space-around;
+              }
             }
             .apple-card {
               background-color: #7575da;
@@ -280,9 +446,18 @@
               border-radius: 14px;
               .content {
                 color: #fafafa;
+                @media (min-width: 768px) and (max-width: 991px) {
+                  font-size: 14px;
+                }
                 p {
                   margin: 12px 0px 3px 0px;
                 }
+              }
+              @media (min-width: 768px) and (max-width: 991px) {
+                padding: 8px 18px;
+              }
+              @media (max-width: 768px) {
+                text-align: center;
               }
             }
             .google-play-card {
@@ -292,9 +467,19 @@
 
               .content {
                 color: #3b368c;
+                @media (min-width: 768px) and (max-width: 991px) {
+                  font-size: 14px;
+                }
                 p {
                   margin: 12px 0px 3px 0px;
                 }
+              }
+              @media (min-width: 768px) and (max-width: 991px) {
+                padding: 8px 18px;
+              }
+              @media (max-width: 768px) {
+                text-align: center;
+                margin-top: 20px;
               }
             }
           }
@@ -303,6 +488,9 @@
 
       #testimonial {
         .container {
+          @media (max-width: 991) {
+            max-width: 775px !important;
+          }
           .sec-padding {
             padding: 120px 0px;
 
@@ -312,7 +500,6 @@
                 font-family: "Raleway", Sans-serif;
                 font-size: 26px;
                 font-weight: 500;
-                line-height: 0.8em;
               }
             }
 
@@ -321,6 +508,10 @@
               padding: 30px 70px 30px 70px;
               border-radius: 40px;
               box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
+
+              @media (max-width: 768px) {
+                margin: 5px 0px 50px 15px;
+              }
 
               .logo {
                 text-align: center;
@@ -366,8 +557,14 @@
         background-color: #f6f8fd;
 
         .container {
+          @media (min-width: 768px) and (max-width: 991px) {
+            max-width: 790px;
+          }
           .sec-padding {
             padding: 80px 0px;
+            @media (max-width: 768px) {
+              padding: 40px 0px;
+            }
 
             .footer-main {
               .footer-logo {
@@ -399,7 +596,7 @@
                   padding: 11px;
                   border-radius: 50%;
 
-                  i {
+                  a {
                     color: #2a2638;
                   }
                 }
@@ -440,18 +637,27 @@
                   font-size: 15px;
                 }
               }
+              .footer-margin {
+                @media (max-width: 991px) {
+                  margin-bottom: 50px;
+                }
+              }
+              .footer-tex-center {
+                @media (max-width: 768px) {
+                  text-align: center;
+                }
+              }
             }
           }
         }
 
-        .lower-footer{
-
+        .lower-footer {
           padding: 24px;
           background-color: #111115;
-          .footer-para{
+          .footer-para {
             color: #ffffff;
             font-size: 18px;
-            a{
+            a {
               text-decoration: none;
               color: #ffffff;
             }

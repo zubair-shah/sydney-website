@@ -1,5 +1,21 @@
+header .header-padding {
+  margin-top: 20px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  header .container {
+    max-width: 990px;
+  }
+}
+
 header .main-header {
   padding-top: 40px;
+}
+
+@media (max-width: 991px) {
+  header .main-header {
+    display: none;
+  }
 }
 
 header .row .navigation nav ul {
@@ -22,14 +38,45 @@ header .row .navigation nav ul li .btn-primary {
   color: #212529;
   background-color: #fbfcfd;
   border-color: #fbfcfd;
-  margin-top: -7px;
+  margin-top: 0px;
   font-size: 14px;
-  padding: 4px 6.75px;
+  padding: 7px 15.75px;
 }
 
 .parent .main {
   background-color: #d2e9ff;
   height: 700px;
+}
+
+.parent .main .navbar-expand-lg .container {
+  display: block !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .parent .main .navbar-expand-lg .container {
+    max-width: 975px;
+  }
+}
+
+@media (min-width: 992px) {
+  .parent .main .navbar-expand-lg .container .navbar-collapse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+  }
+}
+
+@media (min-width: 991px) {
+  .parent .main .navbar-expand-lg .container .my-nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #banner .container {
+    max-width: 625px;
+  }
 }
 
 .parent .main main #banner .container .banner {
@@ -50,8 +97,26 @@ header .row .navigation nav ul li .btn-primary {
   flex-direction: column;
 }
 
+@media (max-width: 991px) {
+  .parent .main main #banner .container .banner {
+    margin: 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #banner .container .banner {
+    margin: 0px 0px;
+  }
+}
+
 .parent .main main #banner .container .banner .heading {
   margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  .parent .main main #banner .container .banner .heading {
+    margin-top: 0;
+  }
 }
 
 .parent .main main #banner .container .banner .heading h1 {
@@ -60,14 +125,45 @@ header .row .navigation nav ul li .btn-primary {
   color: #3b368c;
 }
 
+@media (max-width: 1200px) {
+  .parent .main main #banner .container .banner .heading h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #banner .container .banner .heading h1 {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 600px) {
+  .parent .main main #banner .container .banner .heading h1 {
+    font-size: 28px;
+  }
+}
+
 .parent .main main #banner .container .banner .para {
   margin: 20px 60px;
   line-height: 30px;
 }
 
+@media (max-width: 600px) {
+  .parent .main main #banner .container .banner .para {
+    margin: 20px 20px;
+  }
+}
+
 .parent .main main #banner .container .banner .para p {
   font-size: 16px;
   margin: 30px 0px;
+}
+
+@media (max-width: 1200px) {
+  .parent .main main #banner .container .banner .para p {
+    font-size: 14px;
+    margin: 22px 0px;
+  }
 }
 
 .parent .main main #banner .container .banner .banner-btn {
@@ -84,6 +180,13 @@ header .row .navigation nav ul li .btn-primary {
   text-transform: capitalize;
 }
 
+@media (max-width: 991px) {
+  .parent .main main #banner .container .banner .banner-btn .btn-primary {
+    font-size: 14px;
+    padding: 12px 23px;
+  }
+}
+
 .parent .main main #banner .container .banner .banner-btn .btn-success {
   background-color: #fbfcfd;
   border: none;
@@ -93,6 +196,13 @@ header .row .navigation nav ul li .btn-primary {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
+}
+
+@media (max-width: 991px) {
+  .parent .main main #banner .container .banner .banner-btn .btn-success {
+    font-size: 14px;
+    padding: 12px 23px;
+  }
 }
 
 .parent .main main #banner .container .banner .image {
@@ -109,13 +219,55 @@ header .row .navigation nav ul li .btn-primary {
   width: 760px;
 }
 
+@media (max-width: 1200px) {
+  .parent .main main #banner .container .banner .image img {
+    width: 680px;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #banner .container .banner .image img {
+    width: 680px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #banner .container .banner .image img {
+    width: 580px;
+  }
+}
+
+@media (max-width: 600px) {
+  .parent .main main #banner .container .banner .image img {
+    width: 420px;
+  }
+}
+
 .parent .main main #rule .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .parent .main main #rule .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .parent .main main #rule .container {
+    width: 90%;
+  }
 }
 
 .parent .main main #rule .container .sec-padding {
   padding: 80px 0px;
+}
+
+@media (max-width: 768px) {
+  .parent .main main #rule .container .sec-padding {
+    padding: 40px 0px;
+  }
 }
 
 .parent .main main #rule .container .sec-padding .rule-heading h2 {
@@ -123,6 +275,19 @@ header .row .navigation nav ul li .btn-primary {
   text-transform: capitalize;
   color: #3b368c;
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #rule .container .sec-padding .rule-heading h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #rule .container .sec-padding .rule-heading h2 {
+    margin-top: 30px;
+    font-size: 40px;
+  }
 }
 
 .parent .main main #rule .container .sec-padding .rule-heading ul {
@@ -138,6 +303,31 @@ header .row .navigation nav ul li .btn-primary {
   color: #7575da;
   font-size: 16px;
   margin-right: 14px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #rule .container .sec-padding .img img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #rule .container .sec-padding .img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #rule .container .sec-padding .img {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .parent .main main #rule .container .sec-padding .rule-heading {
+    text-align: center;
+  }
 }
 
 .parent .main main #work-faster {
@@ -209,8 +399,14 @@ header .row .navigation nav ul li .btn-primary {
 }
 
 .parent .main main #pricing .container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .parent .main main #pricing .container {
+    max-width: 1170px;
+  }
 }
 
 .parent .main main #pricing .container .sec-padding {
@@ -225,7 +421,13 @@ header .row .navigation nav ul li .btn-primary {
 
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card {
   text-align: center;
-  padding: 80px;
+  padding: 80px 10px;
+}
+
+@media (max-width: 768px) {
+  .parent .main main #pricing .container .sec-padding .main-pricing-card .card {
+    border-radius: 20px !important;
+  }
 }
 
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card h3 {
@@ -257,11 +459,14 @@ header .row .navigation nav ul li .btn-primary {
   font-family: "Raleway", Sans-serif;
   font-size: 16px;
   font-weight: 600;
+  text-align: center;
   fill: #ffffff;
   color: #ffffff;
   background-color: #7575da;
   border-radius: 5px 5px 5px 5px;
   padding: 12px;
+  width: 150px;
+  margin: 0 auto;
 }
 
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card1 {
@@ -271,9 +476,32 @@ header .row .navigation nav ul li .btn-primary {
   border-bottom-right-radius: 0px;
 }
 
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card1 button {
+  fill: #393689;
+  color: #393689;
+  background-color: #f9f9fd;
+  border: 2px solid #7575da;
+}
+
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card2 {
   border-radius: 0px;
   background-color: #fff7f1;
+  position: relative;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card2 .elementor-button-icon {
+  width: 73px;
+  background-color: #ff8a11;
+  padding: 12px 21px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  /* right: 44%; */
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card3 {
@@ -283,14 +511,34 @@ header .row .navigation nav ul li .btn-primary {
   border-bottom-right-radius: 10px;
 }
 
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card3 button {
+  fill: #393689;
+  color: #393689;
+  background-color: #f9f9fd;
+  border: 2px solid #7575da;
+}
+
 .parent .main main #free-trial {
   background-image: url("https://demo.athemes.com/sp-saas/wp-content/uploads/sites/115/2020/09/4.8.png");
   background-color: #fff7f1;
 }
 
 .parent .main main #free-trial .container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .parent .main main #free-trial .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #free-trial .container {
+    width: 100%;
+    max-width: 700px;
+  }
 }
 
 .parent .main main #free-trial .container .sec-padding {
@@ -305,6 +553,12 @@ header .row .navigation nav ul li .btn-primary {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  .parent .main main #free-trial .container .sec-padding .heading h2 {
+    font-size: 35px;
+  }
+}
+
 .parent .main main #free-trial .container .sec-padding .heading p {
   margin: 35px 0px;
 }
@@ -312,6 +566,13 @@ header .row .navigation nav ul li .btn-primary {
 .parent .main main #free-trial .container .sec-padding .trial-card {
   width: 90%;
   margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .parent .main main #free-trial .container .sec-padding .trial-card {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .parent .main main #free-trial .container .sec-padding .apple-card {
@@ -324,8 +585,26 @@ header .row .navigation nav ul li .btn-primary {
   color: #fafafa;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main #free-trial .container .sec-padding .apple-card .content {
+    font-size: 14px;
+  }
+}
+
 .parent .main main #free-trial .container .sec-padding .apple-card .content p {
   margin: 12px 0px 3px 0px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main #free-trial .container .sec-padding .apple-card {
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #free-trial .container .sec-padding .apple-card {
+    text-align: center;
+  }
 }
 
 .parent .main main #free-trial .container .sec-padding .google-play-card {
@@ -338,8 +617,33 @@ header .row .navigation nav ul li .btn-primary {
   color: #3b368c;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main #free-trial .container .sec-padding .google-play-card .content {
+    font-size: 14px;
+  }
+}
+
 .parent .main main #free-trial .container .sec-padding .google-play-card .content p {
   margin: 12px 0px 3px 0px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main #free-trial .container .sec-padding .google-play-card {
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #free-trial .container .sec-padding .google-play-card {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991) {
+  .parent .main main #testimonial .container {
+    max-width: 775px !important;
+  }
 }
 
 .parent .main main #testimonial .container .sec-padding {
@@ -351,7 +655,6 @@ header .row .navigation nav ul li .btn-primary {
   font-family: "Raleway", Sans-serif;
   font-size: 26px;
   font-weight: 500;
-  line-height: 0.8em;
 }
 
 .parent .main main #testimonial .container .sec-padding .testimonial-card {
@@ -360,6 +663,12 @@ header .row .navigation nav ul li .btn-primary {
   border-radius: 40px;
   -webkit-box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
           box-shadow: -1px 0px 22px -8px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 768px) {
+  .parent .main main #testimonial .container .sec-padding .testimonial-card {
+    margin: 5px 0px 50px 15px;
+  }
 }
 
 .parent .main main #testimonial .container .sec-padding .testimonial-card .logo {
@@ -399,8 +708,20 @@ header .row .navigation nav ul li .btn-primary {
   background-color: #f6f8fd;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main footer .container {
+    max-width: 790px;
+  }
+}
+
 .parent .main main footer .container .sec-padding {
   padding: 80px 0px;
+}
+
+@media (max-width: 768px) {
+  .parent .main main footer .container .sec-padding {
+    padding: 40px 0px;
+  }
 }
 
 .parent .main main footer .container .sec-padding .footer-main .footer-logo {
@@ -435,7 +756,7 @@ header .row .navigation nav ul li .btn-primary {
   border-radius: 50%;
 }
 
-.parent .main main footer .container .sec-padding .footer-main .icon span i {
+.parent .main main footer .container .sec-padding .footer-main .icon span a {
   color: #2a2638;
 }
 
@@ -472,6 +793,18 @@ header .row .navigation nav ul li .btn-primary {
   font-size: 15px;
 }
 
+@media (max-width: 991px) {
+  .parent .main main footer .container .sec-padding .footer-main .footer-margin {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main footer .container .sec-padding .footer-main .footer-tex-center {
+    text-align: center;
+  }
+}
+
 .parent .main main footer .lower-footer {
   padding: 24px;
   background-color: #111115;
@@ -488,8 +821,14 @@ header .row .navigation nav ul li .btn-primary {
 }
 
 #solution .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #solution .container {
+    width: 90%;
+  }
 }
 
 #solution .container .sec-padding {
@@ -508,6 +847,18 @@ header .row .navigation nav ul li .btn-primary {
 
 #solution .main-solution {
   margin-top: 65px;
+}
+
+@media (min-width: 1200px) {
+  #solution .main-solution .solution-row-margin {
+    margin-top: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #solution .main-solution .icon-col, #solution .main-solution .icon-col-content {
+    text-align: center;
+  }
 }
 
 #solution .main-solution .icon-content h4 {
