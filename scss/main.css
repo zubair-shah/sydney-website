@@ -26,11 +26,31 @@ header .main-header {
   }
 }
 
+@media (max-width: 991px) {
+  header .row .navigation {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media (max-width: 576px) {
+  header .row .navigation {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+}
+
 header .row .navigation nav ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
 }
 
 header .row .navigation nav ul li {
@@ -51,8 +71,8 @@ header .row .navigation nav ul li .btn-primary {
   padding: 7px 15.75px;
 }
 
-header .row > * {
-  width: auto;
+footer a {
+  text-decoration: none;
 }
 
 .parent .main {
@@ -60,18 +80,20 @@ header .row > * {
   height: 700px;
 }
 
-.parent .main .navbar-expand-lg .container {
-  display: block !important;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .parent .main .navbar-expand-lg .container {
-    max-width: 975px;
+@media (min-width: 991px) {
+  .parent .main .navbar-expand-lg .navbar-collapse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
-@media (min-width: 992px) {
-  .parent .main .navbar-expand-lg .container .navbar-collapse {
+@media (max-width: 992px) {
+  .parent .main .navbar-expand-lg .navbar-collapse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-flow: row-reverse;
@@ -80,7 +102,7 @@ header .row > * {
 }
 
 @media (min-width: 991px) {
-  .parent .main .navbar-expand-lg .container .my-nav {
+  .parent .main .navbar-expand-lg .my-nav {
     display: none !important;
   }
 }
@@ -133,7 +155,7 @@ header .row > * {
 
 @media (max-width: 600px) {
   .parent .main main #banner .container .banner .heading {
-    margin-top: 0;
+    margin-top: 50px;
   }
 }
 
@@ -361,9 +383,27 @@ header .row > * {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .parent .main main #work-faster {
+    height: 1220px;
+  }
+}
+
 .parent .main main #work-faster .container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .parent .main main #work-faster .container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #work-faster .container {
+    width: 80%;
+  }
 }
 
 .parent .main main #work-faster .container .sec-padding {
@@ -375,6 +415,18 @@ header .row > * {
   text-transform: capitalize;
   color: #3b368c;
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-content h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 414px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-content h2 {
+    font-size: 30px;
+  }
 }
 
 .parent .main main #work-faster .container .sec-padding .work-faster-content button {
@@ -396,6 +448,25 @@ header .row > * {
   border-radius: 20px 20px 20px 20px;
 }
 
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #work-faster .container .sec-padding .work-card .card .img img {
+    width: 76px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent .main main #work-faster .container .sec-padding .work-card .card .img img {
+    width: 65px;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #work-faster .container .sec-padding .work-card .card {
+    padding: 18px;
+  }
+}
+
 .parent .main main #work-faster .container .sec-padding .work-card .content {
   margin-left: 22px;
 }
@@ -405,6 +476,18 @@ header .row > * {
   font-size: 22px;
   font-weight: 700;
   color: #393689;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #work-faster .container .sec-padding .work-card .content h4 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .parent .main main #work-faster .container .sec-padding .work-card .content p {
+    font-size: 14px;
+  }
 }
 
 .parent .main main #work-faster .container .sec-padding .work-card .work-card-coloum1 {
@@ -421,6 +504,52 @@ header .row > * {
   position: absolute;
   top: 250px;
   left: -90px;
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row {
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row .work-faster-col-content {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row .work-faster-column {
+    position: absolute;
+    bottom: -524px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row .work-faster-column .work-card-coloum1 {
+    position: absolute;
+    top: -230px;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row .work-faster-column .work-card-coloum2 {
+    margin: 40px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent .main main #work-faster .container .sec-padding .work-faster-row .work-faster-column .work-card-coloum3 {
+    position: absolute;
+    top: 320px;
+    left: 0;
+  }
 }
 
 .parent .main main #pricing .container {
@@ -801,6 +930,11 @@ header .row > * {
   font-family: "Raleway", Sans-serif;
 }
 
+.parent .main main footer .container .sec-padding .footer-main .company-content ul li a {
+  text-decoration: none;
+  color: #111115;
+}
+
 .parent .main main footer .container .sec-padding .footer-main .product-content ul {
   list-style: none;
   padding: inherit;
@@ -811,6 +945,16 @@ header .row > * {
   color: 2a2638;
   font-size: 14px;
   font-family: "Raleway", Sans-serif;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .product-content ul li a {
+  text-decoration: none;
+  color: #111115;
+}
+
+.parent .main main footer .container .sec-padding .footer-main .contact-content p span a {
+  text-decoration: none;
+  color: #111115;
 }
 
 .parent .main main footer .container .sec-padding .footer-main .contact-content .content-span {
