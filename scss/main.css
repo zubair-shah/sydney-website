@@ -18,6 +18,14 @@ header .main-header {
   }
 }
 
+@media (max-width: 414px) {
+  header .row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 header .row .navigation nav ul {
   list-style: none;
   display: -webkit-box;
@@ -41,6 +49,10 @@ header .row .navigation nav ul li .btn-primary {
   margin-top: 0px;
   font-size: 14px;
   padding: 7px 15.75px;
+}
+
+header .row > * {
+  width: auto;
 }
 
 .parent .main {
@@ -106,6 +118,12 @@ header .row .navigation nav ul li .btn-primary {
 @media (max-width: 768px) {
   .parent .main main #banner .container .banner {
     margin: 0px 0px;
+  }
+}
+
+@media (max-width: 414px) {
+  .parent .main main #banner .container .banner {
+    height: 680px;
   }
 }
 
@@ -240,6 +258,13 @@ header .row .navigation nav ul li .btn-primary {
 @media (max-width: 600px) {
   .parent .main main #banner .container .banner .image img {
     width: 420px;
+  }
+}
+
+@media (max-width: 414px) {
+  .parent .main main #banner .container .banner .image img {
+    width: 320px;
+    margin-top: 100px;
   }
 }
 
@@ -833,6 +858,12 @@ header .row .navigation nav ul li .btn-primary {
 
 #solution .container .sec-padding {
   padding: 90px 0px;
+}
+
+@media (max-width: 768px) {
+  #solution .container .sec-padding {
+    padding: 40px 0px;
+  }
 }
 
 #solution .heading h2 {

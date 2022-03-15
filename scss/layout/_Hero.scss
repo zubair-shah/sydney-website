@@ -1,5 +1,5 @@
 $small-phone: 300px;
-$medium-phone: 440px;
+$medium-phone: 414px;
 $large-phone: 600px;
 $tablet: 768px;
 $large-tablet: 991px;
@@ -55,6 +55,10 @@ $desktop: 1200px;
             @media (max-width: $tablet) {
               margin: 0px 0px;
             }
+            @media (max-width: $medium-phone) {
+            height: 680px;
+            }
+            
 
             .heading {
               margin-top: 60px;
@@ -75,6 +79,7 @@ $desktop: 1200px;
                 @media (max-width: $large-phone) {
                   font-size: 28px;
                 }
+
               }
             }
 
@@ -148,6 +153,11 @@ $desktop: 1200px;
                 @media (max-width: $large-phone) {
                   width: 420px;
                 }
+                @media (max-width: $medium-phone) {
+                  width: 320px;
+                  margin-top: 100px;
+                }
+                
               }
             }
           }

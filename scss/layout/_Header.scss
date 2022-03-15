@@ -15,7 +15,10 @@ header {
   
   }
   .row {
-
+    @media  (max-width:414px){
+     
+        justify-content: space-between
+    }
     .navigation {
       nav {
         ul {
@@ -40,5 +43,8 @@ header {
         }
       }
     }
+  }
+  .row>*{
+      width: auto;
   }
 }
