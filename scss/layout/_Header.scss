@@ -49,6 +49,18 @@ header {
               margin-top: 0px;
               font-size: 14px;
               padding: 7px 15.75px;
+              &:hover{
+                color: white;
+                border: none;
+                background-color: #7575da;
+                transition: .5s;
+              }
+              a{
+                &:hover{
+                  color: white;
+                }
+
+              }
             }
           }
         }

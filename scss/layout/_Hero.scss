@@ -5,35 +5,73 @@ $tablet: 768px;
 $large-tablet: 991px;
 $desktop: 1200px;
 
-footer{
-  a{
+footer {
+  a {
     text-decoration: none;
   }
 }
 .parent {
   .main {
+// ===========================top-to-bottom-btn===========================
+    #button {
+      display: inline-block;
+      background-color: #3b368c;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border-radius: 4px;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      transition: background-color .3s, 
+        opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+
+     text-decoration: none;
+    }
+    #button::after {
+      content: "\f077";
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 2em;
+      line-height: 50px;
+      color: #fff;
+    }
+    #button:hover {
+      cursor: pointer;
+      background-color: #111115;
+    }
+    #button:active {
+      background-color: #111115;
+    }
+    #button.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+
     .navbar-expand-lg {
-     
-        // display: block !important;
-        // @media (min-width: 992px) and (max-width: 1200px) {
-        //   max-width: 975px;
-        // }
-        .navbar-collapse {
-          @media (min-width: 991px) {
-            flex-flow: row-reverse;
-            justify-content: space-evenly;
-          }
-          @media (max-width: 992px) {
-            flex-flow: row-reverse;
-            
-          }
+      // display: block !important;
+      // @media (min-width: 992px) and (max-width: 1200px) {
+      //   max-width: 975px;
+      // }
+      .navbar-collapse {
+        @media (min-width: 991px) {
+          flex-flow: row-reverse;
+          justify-content: space-evenly;
         }
-        .my-nav {
-          @media (min-width: 991px) {
-            display: none !important;
-          }
+        @media (max-width: 992px) {
+          flex-flow: row-reverse;
         }
-      
+      }
+      .my-nav {
+        @media (min-width: 991px) {
+          display: none !important;
+        }
+      }
     }
     background-color: #d2e9ff;
     height: 700px;
@@ -119,6 +157,12 @@ footer{
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+
+                &:hover {
+                  color: #212529;
+                  background-color: #fbfcfd;
+                  transition: 0.5s;
+                }
                 @media (max-width: $large-tablet) {
                   font-size: 14px;
                   padding: 12px 23px;
@@ -133,6 +177,11 @@ footer{
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                &:hover {
+                  color: #ffffff;
+                  background-color: #7575da;
+                  transition: 0.5s;
+                }
                 @media (max-width: $large-tablet) {
                   font-size: 14px;
                   padding: 12px 23px;
@@ -247,7 +296,6 @@ footer{
 
         @media (max-width: 768px) {
           height: 1220px;
-
         }
 
         .container {
@@ -285,6 +333,12 @@ footer{
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                &:hover{
+                  color: #3b368c;
+                  border: none;
+                  background-color: #fbfcfd;
+                  transition: .5s;
+                }
               }
             }
 
@@ -349,9 +403,7 @@ footer{
                 justify-content: center;
               }
 
-              .work-faster-col-content{
-
-
+              .work-faster-col-content {
                 @media (max-width: 768px) {
                   margin-bottom: 50px;
                   text-align: center;
@@ -450,6 +502,16 @@ footer{
                   padding: 12px;
                   width: 150px;
                   margin: 0 auto;
+
+                  &:hover{
+                    color: #3b368c;
+                    border: none;
+                    background-color: #fbfcfd;
+                    transition: .5s;
+                    border: 2px solid #7575da;
+                  }
+
+                  
                 }
               }
               .card1 {
@@ -462,6 +524,13 @@ footer{
                   color: #393689;
                   background-color: #f9f9fd;
                   border: 2px solid #7575da;
+                  &:hover{
+                    color: #3b368c;
+                    background-color: #7575da;
+                    transition: .5s;
+                    border: 2px solid #f9f9fd;
+                    color:#f9f9fd ;
+                  }
                 }
               }
               .card2 {
@@ -481,6 +550,10 @@ footer{
                   transform: translate(-50%, 0%);
                   border-bottom-left-radius: 12px;
                   border-bottom-right-radius: 12px;
+
+                  &:hover{
+
+                  }
                 }
               }
               .card3 {
@@ -494,6 +567,14 @@ footer{
                   color: #393689;
                   background-color: #f9f9fd;
                   border: 2px solid #7575da;
+
+                  &:hover{
+                    color: #3b368c;
+                    background-color: #7575da;
+                    transition: .5s;
+                    border: 2px solid #f9f9fd;
+                    color:#f9f9fd ;
+                  }
                 }
               }
             }
@@ -546,6 +627,7 @@ footer{
               background-color: #7575da;
               padding: 8px 30px;
               border-radius: 14px;
+              cursor: pointer;  
               .content {
                 color: #fafafa;
                 @media (min-width: 768px) and (max-width: 991px) {
@@ -566,6 +648,7 @@ footer{
               background-color: #ffffff;
               padding: 8px 30px;
               border-radius: 14px;
+              cursor: pointer;  
 
               .content {
                 color: #3b368c;
@@ -713,11 +796,11 @@ footer{
                   li {
                     padding-bottom: 10px;
                     color: 2a2638;
- 
+
                     font-size: 14px;
                     font-family: "Raleway", Sans-serif;
 
-                    a{
+                    a {
                       text-decoration: none;
                       color: #111115;
                     }
@@ -735,7 +818,7 @@ footer{
                     font-size: 14px;
                     font-family: "Raleway", Sans-serif;
 
-                    a{
+                    a {
                       text-decoration: none;
                       color: #111115;
                     }
@@ -744,9 +827,9 @@ footer{
               }
 
               .contact-content {
-                p{
-                  span{
-                    a{
+                p {
+                  span {
+                    a {
                       text-decoration: none;
                       color: #111115;
                     }
@@ -755,8 +838,6 @@ footer{
                 .content-span {
                   padding-left: 16px;
                   font-size: 15px;
-
-                
                 }
               }
               .footer-margin {

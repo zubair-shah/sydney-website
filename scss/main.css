@@ -71,6 +71,18 @@ header .row .navigation nav ul li .btn-primary {
   padding: 7px 15.75px;
 }
 
+header .row .navigation nav ul li .btn-primary:hover {
+  color: white;
+  border: none;
+  background-color: #7575da;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .row .navigation nav ul li .btn-primary a:hover {
+  color: white;
+}
+
 footer a {
   text-decoration: none;
 }
@@ -78,6 +90,48 @@ footer a {
 .parent .main {
   background-color: #d2e9ff;
   height: 700px;
+}
+
+.parent .main #button {
+  display: inline-block;
+  background-color: #3b368c;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.parent .main #button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.parent .main #button:hover {
+  cursor: pointer;
+  background-color: #111115;
+}
+
+.parent .main #button:active {
+  background-color: #111115;
+}
+
+.parent .main #button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (min-width: 991px) {
@@ -220,6 +274,13 @@ footer a {
   text-transform: capitalize;
 }
 
+.parent .main main #banner .container .banner .banner-btn .btn-primary:hover {
+  color: #212529;
+  background-color: #fbfcfd;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media (max-width: 991px) {
   .parent .main main #banner .container .banner .banner-btn .btn-primary {
     font-size: 14px;
@@ -236,6 +297,13 @@ footer a {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
+}
+
+.parent .main main #banner .container .banner .banner-btn .btn-success:hover {
+  color: #ffffff;
+  background-color: #7575da;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media (max-width: 991px) {
@@ -439,6 +507,14 @@ footer a {
   text-transform: capitalize;
 }
 
+.parent .main main #work-faster .container .sec-padding .work-faster-content button:hover {
+  color: #3b368c;
+  border: none;
+  background-color: #fbfcfd;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 .parent .main main #work-faster .container .sec-padding .work-card .card {
   padding: 25px;
   background-color: #ffffff;
@@ -623,6 +699,15 @@ footer a {
   margin: 0 auto;
 }
 
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card button:hover {
+  color: #3b368c;
+  border: none;
+  background-color: #fbfcfd;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: 2px solid #7575da;
+}
+
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card1 {
   border-top-right-radius: 0px;
   border-top-left-radius: 10px;
@@ -635,6 +720,15 @@ footer a {
   color: #393689;
   background-color: #f9f9fd;
   border: 2px solid #7575da;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card1 button:hover {
+  color: #3b368c;
+  background-color: #7575da;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: 2px solid #f9f9fd;
+  color: #f9f9fd;
 }
 
 .parent .main main #pricing .container .sec-padding .main-pricing-card .card2 {
@@ -670,6 +764,15 @@ footer a {
   color: #393689;
   background-color: #f9f9fd;
   border: 2px solid #7575da;
+}
+
+.parent .main main #pricing .container .sec-padding .main-pricing-card .card3 button:hover {
+  color: #3b368c;
+  background-color: #7575da;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: 2px solid #f9f9fd;
+  color: #f9f9fd;
 }
 
 .parent .main main #free-trial {
@@ -733,6 +836,7 @@ footer a {
   background-color: #7575da;
   padding: 8px 30px;
   border-radius: 14px;
+  cursor: pointer;
 }
 
 .parent .main main #free-trial .container .sec-padding .apple-card .content {
@@ -765,6 +869,7 @@ footer a {
   background-color: #ffffff;
   padding: 8px 30px;
   border-radius: 14px;
+  cursor: pointer;
 }
 
 .parent .main main #free-trial .container .sec-padding .google-play-card .content {
