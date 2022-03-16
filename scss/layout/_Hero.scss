@@ -148,6 +148,7 @@ footer {
             }
             .banner-btn {
               margin: 30px 18px;
+             
 
               .btn-primary {
                 background-color: #7575da;
@@ -157,11 +158,19 @@ footer {
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                a{
+                  text-decoration: none;
+                  color: white;
+                }
 
                 &:hover {
                   color: #212529;
                   background-color: #fbfcfd;
                   transition: 0.5s;
+                  a{
+                    text-decoration: none;
+                    color: #212529;
+                  }
                 }
                 @media (max-width: $large-tablet) {
                   font-size: 14px;
@@ -177,10 +186,18 @@ footer {
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
+                a{
+                  text-decoration: none;
+                  color: #3c4044;
+                }
                 &:hover {
                   color: #ffffff;
                   background-color: #7575da;
                   transition: 0.5s;
+                  a{
+                    
+                    color: #ffffff;
+                  }
                 }
                 @media (max-width: $large-tablet) {
                   font-size: 14px;
@@ -687,6 +704,121 @@ footer {
                 font-weight: 500;
               }
             }
+       .testimonial-slider{
+         margin: 100px 0px;
+       }
+
+         /* Slider */
+.slick-slide {
+	margin: 0px 20px;
+	display: none;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+.slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+	.slick-track {
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.slick-list {
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+.slick-list {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	&:focus {
+		outline: none;
+	}
+}
+.slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+.slick-track {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	&:before {
+		display: table;
+		content: '';
+	}
+	&:after {
+		display: table;
+		content: '';
+		clear: both;
+	}
+}
+.slick-loading {
+	.slick-track {
+		visibility: hidden;
+	}
+	.slick-slide {
+		visibility: hidden;
+	}
+}
+[dir='rtl'] {
+	.slick-slide {
+		float: right;
+	}
+}
+.slick-slide.slick-loading {
+	img {
+		display: none;
+	}
+}
+.slick-slide.dragging {
+	img {
+		pointer-events: none;
+	}
+}
+.slick-initialized {
+	.slick-slide {
+		display: block;
+	}
+}
+.slick-vertical {
+	.slick-slide {
+		display: block;
+		height: auto;
+		border: 1px solid transparent;
+	}
+}
+.slick-arrow.slick-hidden {
+	display: none;
+}
+
+
+
+            
 
             .testimonial-card {
               margin: 0px 0px 0px 15px;

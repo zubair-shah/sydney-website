@@ -38,10 +38,7 @@ header {
 
           li {
             margin: 0px 20px;
-            a {
-              text-decoration: none;
-              color: #212529;
-            }
+         
             .btn-primary {
               color: #212529;
               background-color: #fbfcfd;
@@ -49,18 +46,25 @@ header {
               margin-top: 0px;
               font-size: 14px;
               padding: 7px 15.75px;
+              a {
+                text-decoration: none;
+                color: #212529;
+              }
               &:hover{
                 color: white;
                 border: none;
                 background-color: #7575da;
                 transition: .5s;
-              }
-              a{
-                &:hover{
-                  color: white;
-                }
 
+                
+                  a{
+                    color: white;
+                    }
+          
+  
+                }
               }
+            
             }
           }
         }
@@ -68,4 +72,4 @@ header {
     }
   }
  
-}
+

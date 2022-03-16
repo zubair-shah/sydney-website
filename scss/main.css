@@ -57,11 +57,6 @@ header .row .navigation nav ul li {
   margin: 0px 20px;
 }
 
-header .row .navigation nav ul li a {
-  text-decoration: none;
-  color: #212529;
-}
-
 header .row .navigation nav ul li .btn-primary {
   color: #212529;
   background-color: #fbfcfd;
@@ -69,6 +64,11 @@ header .row .navigation nav ul li .btn-primary {
   margin-top: 0px;
   font-size: 14px;
   padding: 7px 15.75px;
+}
+
+header .row .navigation nav ul li .btn-primary a {
+  text-decoration: none;
+  color: #212529;
 }
 
 header .row .navigation nav ul li .btn-primary:hover {
@@ -79,7 +79,7 @@ header .row .navigation nav ul li .btn-primary:hover {
   transition: .5s;
 }
 
-header .row .navigation nav ul li .btn-primary a:hover {
+header .row .navigation nav ul li .btn-primary:hover a {
   color: white;
 }
 
@@ -274,11 +274,21 @@ footer a {
   text-transform: capitalize;
 }
 
+.parent .main main #banner .container .banner .banner-btn .btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+
 .parent .main main #banner .container .banner .banner-btn .btn-primary:hover {
   color: #212529;
   background-color: #fbfcfd;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.parent .main main #banner .container .banner .banner-btn .btn-primary:hover a {
+  text-decoration: none;
+  color: #212529;
 }
 
 @media (max-width: 991px) {
@@ -299,11 +309,20 @@ footer a {
   text-transform: capitalize;
 }
 
+.parent .main main #banner .container .banner .banner-btn .btn-success a {
+  text-decoration: none;
+  color: #3c4044;
+}
+
 .parent .main main #banner .container .banner .banner-btn .btn-success:hover {
   color: #ffffff;
   background-color: #7575da;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.parent .main main #banner .container .banner .banner-btn .btn-success:hover a {
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -907,6 +926,7 @@ footer a {
 
 .parent .main main #testimonial .container .sec-padding {
   padding: 120px 0px;
+  /* Slider */
 }
 
 .parent .main main #testimonial .container .sec-padding .heading h6 {
@@ -914,6 +934,118 @@ footer a {
   font-family: "Raleway", Sans-serif;
   font-size: 26px;
   font-weight: 500;
+}
+
+.parent .main main #testimonial .container .sec-padding .testimonial-slider {
+  margin: 100px 0px;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slide {
+  margin: 0px 20px;
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slide img {
+  width: 100%;
+  display: block;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slider .slick-track {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-list:focus {
+  outline: none;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-track:before {
+  display: table;
+  content: '';
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-track:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.parent .main main #testimonial .container .sec-padding [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slide.slick-loading img {
+  display: none;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-initialized .slick-slide {
+  display: block;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.parent .main main #testimonial .container .sec-padding .slick-arrow.slick-hidden {
+  display: none;
 }
 
 .parent .main main #testimonial .container .sec-padding .testimonial-card {
