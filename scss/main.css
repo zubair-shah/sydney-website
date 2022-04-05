@@ -1097,24 +1097,30 @@ footer a {
 
 .parent .main main footer {
   background-color: #f6f8fd;
+<<<<<<< HEAD
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .parent .main main footer .container {
     max-width: 790px;
   }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
 }
 
 .parent .main main footer .container .sec-padding {
   padding: 80px 0px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .parent .main main footer .container .sec-padding {
     padding: 40px 0px;
   }
 }
 
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
 .parent .main main footer .container .sec-padding .footer-main .footer-logo {
   padding-bottom: 22px;
 }
@@ -1147,7 +1153,11 @@ footer a {
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 .parent .main main footer .container .sec-padding .footer-main .icon span a {
+=======
+.parent .main main footer .container .sec-padding .footer-main .icon span i {
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
   color: #2a2638;
 }
 
@@ -1165,11 +1175,14 @@ footer a {
   color: 2a2638;
   font-size: 14px;
   font-family: "Raleway", Sans-serif;
+<<<<<<< HEAD
 }
 
 .parent .main main footer .container .sec-padding .footer-main .company-content ul li a {
   text-decoration: none;
   color: #111115;
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
 }
 
 .parent .main main footer .container .sec-padding .footer-main .product-content ul {
@@ -1184,6 +1197,7 @@ footer a {
   font-family: "Raleway", Sans-serif;
 }
 
+<<<<<<< HEAD
 .parent .main main footer .container .sec-padding .footer-main .product-content ul li a {
   text-decoration: none;
   color: #111115;
@@ -1194,11 +1208,14 @@ footer a {
   color: #111115;
 }
 
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
 .parent .main main footer .container .sec-padding .footer-main .contact-content .content-span {
   padding-left: 16px;
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 991px) {
   .parent .main main footer .container .sec-padding .footer-main .footer-margin {
     margin-bottom: 50px;
@@ -1211,6 +1228,8 @@ footer a {
   }
 }
 
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
 .parent .main main footer .lower-footer {
   padding: 24px;
   background-color: #111115;

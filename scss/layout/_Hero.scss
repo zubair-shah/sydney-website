@@ -874,9 +874,12 @@ footer {
         background-color: #f6f8fd;
 
         .container {
+<<<<<<< HEAD
           @media (min-width: 768px) and (max-width: 991px) {
             max-width: 790px;
           }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
           .sec-padding {
             padding: 80px 0px;
             @media (max-width: 768px) {
@@ -913,7 +916,11 @@ footer {
                   padding: 11px;
                   border-radius: 50%;
 
+<<<<<<< HEAD
                   a {
+=======
+                  i {
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
                     color: #2a2638;
                   }
                 }
@@ -931,11 +938,14 @@ footer {
 
                     font-size: 14px;
                     font-family: "Raleway", Sans-serif;
+<<<<<<< HEAD
 
                     a {
                       text-decoration: none;
                       color: #111115;
                     }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
                   }
                 }
               }
@@ -949,16 +959,20 @@ footer {
 
                     font-size: 14px;
                     font-family: "Raleway", Sans-serif;
+<<<<<<< HEAD
 
                     a {
                       text-decoration: none;
                       color: #111115;
                     }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
                   }
                 }
               }
 
               .contact-content {
+<<<<<<< HEAD
                 p {
                   span {
                     a {
@@ -967,11 +981,14 @@ footer {
                     }
                   }
                 }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
                 .content-span {
                   padding-left: 16px;
                   font-size: 15px;
                 }
               }
+<<<<<<< HEAD
               .footer-margin {
                 @media (max-width: 991px) {
                   margin-bottom: 50px;
@@ -982,10 +999,13 @@ footer {
                   text-align: center;
                 }
               }
+=======
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
             }
           }
         }
 
+<<<<<<< HEAD
         .lower-footer {
           padding: 24px;
           background-color: #111115;
@@ -993,6 +1013,16 @@ footer {
             color: #ffffff;
             font-size: 18px;
             a {
+=======
+        .lower-footer{
+
+          padding: 24px;
+          background-color: #111115;
+          .footer-para{
+            color: #ffffff;
+            font-size: 18px;
+            a{
+>>>>>>> 0a695d7f1e15a2eedb83ca55663db0bb34b8ceee
               text-decoration: none;
               color: #ffffff;
             }
